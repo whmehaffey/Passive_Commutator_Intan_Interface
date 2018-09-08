@@ -1,0 +1,33 @@
+Insert AC2690 Slip Ring into plastic sheath (3D printed part, AC2690Sheath.stl). Should be a tight fit, but if not you can epoxy it in place. 
+
+Insert sheath into ball bearings, and then this assembly into two stacked ball bearings (R4A , Plastic Bearing, Glass Ball, McMaster Carr part #6455K52)
+
+Insert Ball Bearings into 3D printed base (KSBearingHolderDoubleFinal.stl).
+
+Attach flexible wires to each of the 10 vias on the PCB (MOOG AC2690 to SPI Commutator Board.BRD, printable at OSH Park or wherever you'd rather, https://oshpark.com/shared_projects/Ky5DDTai)
+
+
+Place PCB over 3d Printed place, gently put brush block over the slipring, then pull back towards the attachment point (two small screws near center hole), then attach brush block (AC259) to PCB and 3D printed base.
+
+Wire up brush block (1 goes to 1, etc).
+
+Wire up to connector. For DALE/VISHAY, I used:
+
+AC2690,    ISHAY/DALE	INTAN chip
+
+1 - Brown	A 	 CS-
+2 - Red	  	B	 CS+
+3 - Orange	C	 SCLK-
+4 - Yellow	D	 SCLK+
+5 - Green	E	 MOSI-
+6 - Blue	F	 MOSI+
+7 - Violet	G	 MISO-
+8 - Gray	H	 MISO+
+9 - White	J	 GND
+10 - Black	K	 VDD
+
+
+----------------------------------------------------------
+
+
+
